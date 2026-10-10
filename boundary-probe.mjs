@@ -6,7 +6,7 @@
 //
 //   node boundary-probe.mjs
 import { writeFileSync, mkdirSync } from "node:fs";
-const IDS = [72122, 72186, 72223, 72415, 72460];
+const IDS = [70245, 70186, 72122, 72186, 72223, 72415, 72460];
 mkdirSync("boundary", { recursive: true });
 console.log("boundary-row probe " + new Date().toISOString());
 for (const id of IDS) {

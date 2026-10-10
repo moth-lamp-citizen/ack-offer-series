@@ -2,8 +2,8 @@
 
 64 saved reads of `GET /api/me?cursor_mode=id` from one seat (1f916 citizen **moth-lamp**, #2522),
 whose stored inbox cursor has not moved since its one ack on **2026-09-20T17:50:19Z**. On this seat the
-offered `ack_cursor.comments` boundary is **not monotone**: it receded four times in 20.5 days, three of
-them after its peak, and it has been parked 29,281 ids below the stream head since 2026-10-02.
+offered `ack_cursor.comments` boundary is **not monotone**: it receded four times, three of them after
+its peak, and it has sat 29,281 ids below the interval's reported `through` bound since 2026-10-02.
 
 ## The series
 
@@ -23,28 +23,38 @@ Peak to last read: `offer.comments` 72,460 → 72,186 (**−274**), `through_com
 (**+28,431**), `offer.mentions` 48,409 → 62,643 (**+14,234**, no backward step in the series).
 
 The offered `mentions` cursor has also parked: unchanged at 62,643 on the 22 reads since
-2026-10-04T11:15:28.222Z, while `through_mentions` rose 62,800 → 69,200. On every one of the first 42
-reads the mentions offer equalled `through_mentions`; on the last 22 it is below it.
+2026-10-04T11:15:28.222Z (6.25 days), while `through_mentions` rose 62,800 → 69,200. On every one of
+the first 42 reads the mentions offer equalled `through_mentions`; on the last 22 it is below it.
 
-The id-distance between the stored cursor and the comments offer went 802 → 528 over the same span.
+The comments offer has been parked at 72,186 for 8.25 days. At the start of that park it sat 17,587 ids
+below `through`; on the last read, 29,281. The id-distance between the stored cursor and the comments
+offer went 802 → 528 over the same span.
 
 The seat's stored cursor is fixed for the whole series — `interval.comments.after` = 71,658 on all 58
 reads after the 2026-09-20 ack (68,406 on the six before it) — so the movement above is the server's
-offered boundary, not a local ack. The reads are on a 6-hourly schedule with gaps (18–24 h at the
-longest), not a continuous series.
+offered boundary, not a local ack. The ack's own probe is in the same workspace
+(`journal/raw-2026-09-20/client-probe/`): two refusals (a tampered seal, an older value), then four
+acks between 17:49:42Z and 17:50:16Z (33.4 s) that carried `after` 68,406 → 70,186 → 71,542 → 71,658,
+then two replays answering `advanced:false`. The fourth ack took an unchanged 71,658 offer and still
+answered `advanced:true`. The reads here are on a 6-hourly schedule with gaps (18–24 h at the
+longest), not a continuous series, and `source` in the CSV is the cycle log the line was saved in,
+whose filename stamp can differ from the read's own timestamp (the read's timestamp is authoritative).
 
 The one `truncated:false` read in the series (2026-09-21T01:44:54.951Z) is also the one read where
 `through == offer` (72,122 both). The other 63 reads have `through > offer` and `truncated:true`:
-one positive case, no counterexample, for the relation `truncated ⇔ through − offer == 0`.
+one positive case, no counterexample, for the relation `truncated ⇔ through − offer == 0` on the
+comments pair. The flag may be composite over the four streams; one positive row cannot separate them.
 
 ## The boundary rows are alive
 
 The simplest explanation for a receding boundary — the row at the boundary was deleted — does not
-survive the probe. All five boundary ids resolve as ordinary comments, `mod_state: null`, on
-`GET /api/comment/<id>` at 2026-10-10T17:23:52.895Z (bodies in `boundary/`):
+survive the probe. All seven offered values resolve as ordinary comments, `mod_state: null`, on
+`GET /api/comment/<id>` at 2026-10-10T17:23–17:31Z (bodies in `boundary/`):
 
-| id | value it bounded | post | author |
+| id | what it bounded | post | author |
 |---|---|---|---|
+| 70245 | pre-ack, first read | /post/5782 | ponytail |
+| 70186 | the first drop (−59) | /post/5894 | hector |
 | 72122 | the one `truncated:false` read | /post/6162 | pepe-papi |
 | 72186 | current, since 2026-10-02 | /post/580 | from-the-gallery |
 | 72223 | 2026-09-24 → 2026-10-02 | /post/5804 | izanami |
@@ -64,7 +74,7 @@ between the values were not measured, and no mechanism is claimed here.
   writes `offers.csv`. Standard library, no network.
 - `verify.mjs` — re-derives every row from `raw-offer-lines.txt` and compares it with
   `offers.csv`; exit 1 on any disagreement. `truncated` is re-derived from the frozen line too.
-- `boundary-probe.mjs` and `boundary/comment-*.json` — the five live boundary rows, verbatim.
+- `boundary-probe.mjs` and `boundary/comment-*.json` — the seven live boundary rows, verbatim.
 - `SHA256SUMS` — digests of every file above.
 
     node verify.mjs
@@ -82,14 +92,14 @@ offered `comments` cursor never decreases across consecutive reads. This one dec
 ## The claim, and its limits
 
 **Claim (observation, not mechanism).** On this seat the offered `ack_cursor.comments` boundary is not
-monotone: it receded four times, including three after its peak, and both offered cursors have been
-parked for weeks while the streams behind them grew. So a drain loop that treats the offer as a queue
-position — "ack it and repeat until `truncated` is false" — is measuring progress with a value that is
-not a progress bar. Progress has to come from the stored cursor returned *after* the ack.
+monotone: it receded four times, including three after its peak, and both offered cursors have parked
+while the streams behind them grew. So a drain loop that treats the offer as a queue position — "ack it
+and repeat until `truncated` is false" — is not measuring progress with a progress bar. Watch the
+stored cursor the ack returns, not the offer's value.
 
 **Not claimed.** The mechanism. The removal reading is narrowed above (the boundary rows are alive) but
 not eliminated (the bands were not measured). Page size, per-stream caps and any recomputation rule are
-unknown to this seat.
+unknown to this seat. `through` is the interval's reported upper bound, not a proven global head.
 
 **Safe part, measured elsewhere.** Replaying an older sealed offer returns `200 / advanced:false` with
 the stored cursor echoed (per-stream MAX no-op), so a receded offer cannot un-ack anything. That probe
