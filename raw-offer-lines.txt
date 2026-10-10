@@ -1,0 +1,192 @@
+# journal/raw-2026-09-20/cycle-2026-09-20T05-21-51Z.log
+interval={"mode":"id","comments":{"after":68406,"through":70770},"mentions":{"after":45688,"through":46807}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789881713921,"comments":70245,"mentions":46807,"seal":"EBCVnRWz0wi9Zsm5KM8PZDCm7x4IK_tWdjktuwYBsro"}
+# journal/raw-2026-09-20/cycle-2026-09-20T08-01Z.log
+interval={"mode":"id","comments":{"after":68406,"through":70937},"mentions":{"after":45688,"through":46891}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789891256296,"comments":70186,"mentions":46891,"seal":"kcT4uvGHVT3ie_YQ_ia6i6ks1moa-858vWM4GlB2jJs"}
+# journal/raw-2026-09-20/cycle-2026-09-20T14-38Z.log
+interval={"mode":"id","comments":{"after":68406,"through":71421},"mentions":{"after":45688,"through":47289}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789914993010,"comments":70186,"mentions":47289,"seal":"1xoNt_ur6vHeIKQp9ynBinAWjzeTSYbB7A7HWhVQPhU"}
+# journal/raw-2026-09-20/cycle-2026-09-20T17-50Z.log
+interval={"mode":"id","comments":{"after":68406,"through":71480},"mentions":{"after":45688,"through":47328}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789918612793,"comments":70186,"mentions":47328,"seal":"VYftc0u9AFIWV4Mqv2--AeEDRKLpeh0EQ_9vZ4M3JHM"}
+# journal/raw-2026-09-20/cycle-2026-09-20T16-05Z.log
+interval={"mode":"id","comments":{"after":68406,"through":71529},"mentions":{"after":45688,"through":47329}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789919188933,"comments":70186,"mentions":47329,"seal":"2QKKNZ1nznvqUJORh42XPq3Dw50FZl80SRKldYYIHd0"}
+# journal/raw-2026-09-20/cycle-2026-09-20T17-27Z.log
+interval={"mode":"id","comments":{"after":68406,"through":71619},"mentions":{"after":45688,"through":47412}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789925088800,"comments":70186,"mentions":47412,"seal":"UA6ykfb9M9uaYWnqdqDZfLiW3My44rBjosUVnG7EItY"}
+# journal/raw-2026-09-21/cycle-2026-09-21T01-45Z.log
+interval={"mode":"id","comments":{"after":71658,"through":72122},"mentions":{"after":47431,"through":47802}} truncated=false
+ack offer (NOT sent by this script): {"version":1,"timestamp":1789955094951,"comments":72122,"mentions":47802,"seal":"JCJ6T4wieMSckQxoYySKtsb2A-sO5pkTeI9Mffq7kz4"}
+# journal/raw-2026-09-21/cycle-2026-09-21T15-58Z.log
+interval={"mode":"id","comments":{"after":71658,"through":73036},"mentions":{"after":47431,"through":48409}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790006283904,"comments":72460,"mentions":48409,"seal":"PiSfLxOf2nI54im4KUwJ65oG3DgiMlENssXeS6xaXww"}
+# journal/raw-2026-09-21/cycle-2026-09-21T22-12Z.log
+interval={"mode":"id","comments":{"after":71658,"through":73378},"mentions":{"after":47431,"through":48677}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790028726142,"comments":72415,"mentions":48677,"seal":"Cs2tuXIoybpm7f8zvP5eYmFJdf8BZkNl8q7nIV-APco"}
+# journal/raw-2026-09-22/cycle-2026-09-22T00-10Z.log
+interval={"mode":"id","comments":{"after":71658,"through":73778},"mentions":{"after":47431,"through":48897}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790039112484,"comments":72415,"mentions":48897,"seal":"8mwtOyALZeDLc7tQ06dDcoyAzudM3nJqOmph8x-gvzY"}
+# journal/raw-2026-09-22/cycle-2026-09-22T10-47Z.log
+interval={"mode":"id","comments":{"after":71658,"through":74428},"mentions":{"after":47431,"through":49321}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790074037811,"comments":72415,"mentions":49321,"seal":"kbyEWXdlnAyflkZHHuUb35-j_vceZmkvhswmlcm5vzQ"}
+# journal/raw-2026-09-23/cycle-2026-09-23T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":76296},"mentions":{"after":47431,"through":50785}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790183734300,"comments":72415,"mentions":50785,"seal":"AmE0-KN07dZ2tW5NNvzQiDwbyayDviRtbIFLjgSn1sQ"}
+# journal/raw-2026-09-23/cycle-2026-09-23T23-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":76742},"mentions":{"after":47431,"through":51212}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790205329332,"comments":72415,"mentions":51212,"seal":"Fx4tKyzmTLsudi4LAS-8PuGG82HStFtj85Sffq9C9eY"}
+# journal/raw-2026-09-24/cycle-2026-09-24T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":77399},"mentions":{"after":47431,"through":51757}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790226935142,"comments":72223,"mentions":51757,"seal":"-MPS-DVzGdftNleBjuLrGR6Ok_dN90eZh0v_B7N0xsY"}
+# journal/raw-2026-09-24/cycle-2026-09-24T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":77765},"mentions":{"after":47431,"through":51984}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790248518081,"comments":72223,"mentions":51984,"seal":"hFFRRTGSpfSww1VlWue5fFmTKwQLSuFfn4G8BAE6l0Y"}
+# journal/raw-2026-09-24/cycle-2026-09-24T17-17Z.log
+interval={"mode":"id","comments":{"after":71658,"through":78130},"mentions":{"after":47431,"through":52269}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790270178885,"comments":72223,"mentions":52269,"seal":"-bYlinHipHaVJPizzihZMDGh7a5-SKMOahoOmm0aAnM"}
+# journal/raw-2026-09-24/cycle-2026-09-24T23-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":78403},"mentions":{"after":47431,"through":52504}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790291733388,"comments":72223,"mentions":52504,"seal":"UnMpHLOcsMGwhJM8HXANzBQ3FeACBusrIUvl0UJcuKI"}
+# journal/raw-2026-09-25/cycle-2026-09-25T05-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":78919},"mentions":{"after":47431,"through":52935}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790313323012,"comments":72223,"mentions":52935,"seal":"ul2Nu4vma6Hroajfor7Ou-t5xaXWrT4O5EEk95OruZM"}
+# journal/raw-2026-09-25/cycle-2026-09-25T11-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":79235},"mentions":{"after":47431,"through":53146}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790334936000,"comments":72223,"mentions":53146,"seal":"s57JPGbdrf4kJks7eeicthsiK8D_7-yFj9yjyxRTE50"}
+# journal/raw-2026-09-25/cycle-2026-09-25T17-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":79615},"mentions":{"after":47431,"through":53520}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790356532452,"comments":72223,"mentions":53520,"seal":"LatXlq1xfrpSi0iyKD-rLGzl_fqWsdFqhZd58Zc6uWI"}
+# journal/raw-2026-09-25/cycle-2026-09-25T23-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":79875},"mentions":{"after":47431,"through":53731}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790378142742,"comments":72223,"mentions":53731,"seal":"L6ulyMcUGRjGM2oC8sHW8yxgba3a3RU0lEbCfoh8urA"}
+# journal/raw-2026-09-26/cycle-2026-09-26T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":80847},"mentions":{"after":47431,"through":54346}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790421332648,"comments":72223,"mentions":54346,"seal":"jynWXXv0PtjdddUF_yqiqKR3R3Gbpzf_t4ncNPua394"}
+# journal/raw-2026-09-27/cycle-2026-09-27T05-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":81950},"mentions":{"after":47431,"through":55177}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790486137426,"comments":72223,"mentions":55177,"seal":"-HbKdWjaHTgIAvVrYqlG7nh0TOBLChGXSR1ngmuHzKo"}
+# journal/raw-2026-09-27/cycle-2026-09-27T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":82403},"mentions":{"after":47431,"through":55366}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790507731419,"comments":72223,"mentions":55366,"seal":"ClCR-iL04SagnRVfEWmN92O7t8oePe2f29sxJ8crP9M"}
+# journal/raw-2026-09-27/cycle-2026-09-27T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":82740},"mentions":{"after":47431,"through":55609}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790529332905,"comments":72223,"mentions":55609,"seal":"aQg7vBdznoGj5VQP2iPSLpoQb-YnoqCaOzuV8tjP6UM"}
+# journal/raw-2026-09-28/cycle-2026-09-28T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":83482},"mentions":{"after":47431,"through":56247}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790572540179,"comments":72223,"mentions":56247,"seal":"0C5lhoHBHXed1oaw49x-8t9ZSg2j2cSakHh4A8A0Rso"}
+# journal/raw-2026-09-28/cycle-2026-09-28T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":83790},"mentions":{"after":47431,"through":56436}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790594139010,"comments":72223,"mentions":56436,"seal":"TE0TLxywh-YfsWaVMckhmRfDFnWH8Hjs0dCQTkPttvg"}
+# journal/raw-2026-09-29/cycle-2026-09-29T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":84927},"mentions":{"after":47431,"through":57324}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790658937349,"comments":72223,"mentions":57324,"seal":"fdr5owlVOrUrkjVdn9XyQ_WQkFZS5PpZ1aGgY8wLlfQ"}
+# journal/raw-2026-09-29/cycle-2026-09-29T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":85299},"mentions":{"after":47431,"through":57508}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790680533743,"comments":72223,"mentions":57508,"seal":"2HHRrHmN-Q73ZpbV2ADlMPovpQOGImiS63EhU6KMH9U"}
+# journal/raw-2026-09-29/cycle-2026-09-29T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":85711},"mentions":{"after":47431,"through":57775}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790702140126,"comments":72223,"mentions":57775,"seal":"xTh-Gey_-giP33RDMkwbetAva3dgprBfUgmjwGZxCnk"}
+# journal/raw-2026-09-29/cycle-2026-09-29T23-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":86132},"mentions":{"after":47431,"through":58206}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790723726371,"comments":72223,"mentions":58206,"seal":"LX0W5H5g4enKJVZAm8tCEq-r_xPz9ZuH4m1MalMZHK4"}
+# journal/raw-2026-09-30/cycle-2026-09-30T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":86657},"mentions":{"after":47431,"through":58612}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790745343395,"comments":72223,"mentions":58612,"seal":"b32gnF9vwp8_Hxb4YFGPjlWpO98qZFMHXQU_5ssqPB0"}
+# journal/raw-2026-10-01/cycle-2026-10-01T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":88061},"mentions":{"after":47431,"through":59563}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790831733671,"comments":72223,"mentions":59563,"seal":"5I_N9C2Uvcsl9eLPKumu_9-P3Jv_MiylbZxwvbDpp00"}
+# journal/raw-2026-10-02/cycle-2026-10-02T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":89417},"mentions":{"after":47431,"through":60592}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790918127505,"comments":72223,"mentions":60592,"seal":"RvlDV3m7uQTywvkzWnejyRp2r8eqDD_PTk4bjQKGuxI"}
+# journal/raw-2026-10-02/cycle-2026-10-02T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":89773},"mentions":{"after":47431,"through":60809}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790939732409,"comments":72186,"mentions":60809,"seal":"IQNqoAMrAYa6yaUqdGrCYBL6zlCc-SG8eHDTb8qr0PM"}
+# journal/raw-2026-10-02/cycle-2026-10-02T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":90134},"mentions":{"after":47431,"through":61072}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790961323890,"comments":72186,"mentions":61072,"seal":"jhqadmIn6qEiYVGPBUdglhPJ97kTLY6LsHV8WaRRQxk"}
+# journal/raw-2026-10-02/cycle-2026-10-02T23-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":90385},"mentions":{"after":47431,"through":61263}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1790982932885,"comments":72186,"mentions":61263,"seal":"05NA5sp4mswmy0fTAKYzTbfO6t0uKYDczZJlzwct2Vw"}
+# journal/raw-2026-10-03/cycle-2026-10-03T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":90745},"mentions":{"after":47431,"through":61522}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791004527984,"comments":72186,"mentions":61522,"seal":"4Fh9MBJkdKvsI-dYWKoHDt0aekZLCmXCCZxmZ24kvlk"}
+# journal/raw-2026-10-03/cycle-2026-10-03T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":91050},"mentions":{"after":47431,"through":61706}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791026129872,"comments":72186,"mentions":61706,"seal":"mjJRKdNCCigyYBW2Xa_RuI0CpfmpzcOujLF90QECBA8"}
+# journal/raw-2026-10-03/cycle-2026-10-03T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":91420},"mentions":{"after":47431,"through":62014}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791047727474,"comments":72186,"mentions":62014,"seal":"WxhJ7mSD68BRnRHa2-5fx-eAKINoVPwTSLszxqysLCM"}
+# journal/raw-2026-10-03/cycle-2026-10-03T23-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":91632},"mentions":{"after":47431,"through":62221}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791069336151,"comments":72186,"mentions":62221,"seal":"EGAUqAAtHLS1gkTvNXWcnJms3WTWJD6gEbu68w_6fz8"}
+# journal/raw-2026-10-04/cycle-2026-10-04T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":92056},"mentions":{"after":47431,"through":62565}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791090946460,"comments":72186,"mentions":62565,"seal":"9prPPvZvMd9Q7YYJaUcg2Pywtn2oS2zz5hVCQy_O9FY"}
+# journal/raw-2026-10-04/cycle-2026-10-04T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":92411},"mentions":{"after":47431,"through":62800}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791112528222,"comments":72186,"mentions":62643,"seal":"LXnOLEObkysl9yvxbXuNNaCra5qdq7bUve3YwI_nza4"}
+# journal/raw-2026-10-04/cycle-2026-10-04T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":92755},"mentions":{"after":47431,"through":63057}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791134138148,"comments":72186,"mentions":62643,"seal":"IOJ-Cm9XgXgfPjYF45qlFLo0kiROcXooqYtVqQfMNKg"}
+# journal/raw-2026-10-05/cycle-2026-10-05T05-16Z.log
+interval={"mode":"id","comments":{"after":71658,"through":93530},"mentions":{"after":47431,"through":63491}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791177417637,"comments":72186,"mentions":62643,"seal":"soF_S7jNwwZN7Dz77mNlANPTuWSD7A2gsV6GulBn1Xk"}
+# journal/raw-2026-10-05/cycle-2026-10-05T11-17Z.log
+interval={"mode":"id","comments":{"after":71658,"through":93859},"mentions":{"after":47431,"through":63685}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791199096810,"comments":72186,"mentions":62643,"seal":"xffZO3uHYwsHGk2QHcrnI_kV9R1bTc8XrgQ-mW0iNZ8"}
+# journal/raw-2026-10-05/cycle-2026-10-05T17-17Z.log
+interval={"mode":"id","comments":{"after":71658,"through":94205},"mentions":{"after":47431,"through":63944}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791220532988,"comments":72186,"mentions":62643,"seal":"3yPtHt9N9gA65lqNsXx4ZyR9tjOxqSnkU8jkeqi83I0"}
+# journal/raw-2026-10-05/cycle-2026-10-05T23-17Z.log
+interval={"mode":"id","comments":{"after":71658,"through":94511},"mentions":{"after":47431,"through":64166}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791242125483,"comments":72186,"mentions":62643,"seal":"9C1APfb8y03abZ-PBblN-uFW-nqyYw2WEolmCveQ05M"}
+# journal/raw-2026-10-06/cycle-2026-10-06T01-55Z.log
+interval={"mode":"id","comments":{"after":71658,"through":94759},"mentions":{"after":47431,"through":64386}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791251739605,"comments":72186,"mentions":62643,"seal":"yCx__gqWzAP8Bv2xNQL09090XnPKSoQsNydz5vwUngo"}
+# journal/raw-2026-10-06/cycle-2026-10-06T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":94904},"mentions":{"after":47431,"through":64487}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791263743169,"comments":72186,"mentions":62643,"seal":"hXwQzzNhl-w7bNceB4DMFL7jt7iTnSOCrslGZt5wvlQ"}
+# journal/raw-2026-10-06/cycle-2026-10-06T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":95310},"mentions":{"after":47431,"through":64739}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791285341975,"comments":72186,"mentions":62643,"seal":"nt1p-r7zBN3A6HBTuHYrwldo2ectJc814XCyHQiDp-I"}
+# journal/raw-2026-10-06/cycle-2026-10-06T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":95702},"mentions":{"after":47431,"through":65015}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791306946673,"comments":72186,"mentions":62643,"seal":"RNucv7Lj2Z9nL3gsHgXUK9JW67B7ntWsyjeIw9MM5zs"}
+# journal/raw-2026-10-06/cycle-2026-10-06T23-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":96110},"mentions":{"after":47431,"through":65408}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791328522718,"comments":72186,"mentions":62643,"seal":"rHacSdx_1GoqNS47CibTbjuJcWcA6YNssNbidvbaRqU"}
+# journal/raw-2026-10-07/cycle-2026-10-07T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":96564},"mentions":{"after":47431,"through":65784}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791350128589,"comments":72186,"mentions":62643,"seal":"dy9zxXGBkgAmUEEqE4LrfwM6LW-CAkdZoy70fpWfjJw"}
+# journal/raw-2026-10-07/cycle-2026-10-07T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":96884},"mentions":{"after":47431,"through":65961}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791371734020,"comments":72186,"mentions":62643,"seal":"4TQrsPreOSpe9aOf_IPrE4SUIuhno_3ab7fLcdvdSQc"}
+# journal/raw-2026-10-07/cycle-2026-10-07T23-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":97570},"mentions":{"after":47431,"through":66400}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791414931991,"comments":72186,"mentions":62643,"seal":"06CPhSJymBbpPBBO6potm46cSAnM2BLdY7eQuXAub_0"}
+# journal/raw-2026-10-08/cycle-2026-10-08T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":98031},"mentions":{"after":47431,"through":66830}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791436531140,"comments":72186,"mentions":62643,"seal":"pCWpxF7ju_jNO670cBvKH_UvfqwKc_IEwERz05e53XI"}
+# journal/raw-2026-10-09/cycle-2026-10-09T06-32Z.log
+interval={"mode":"id","comments":{"after":71658,"through":99580},"mentions":{"after":47431,"through":67910}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791527512997,"comments":72186,"mentions":62643,"seal":"XVs0VADo_P-i54wGZn3sDvfH4Cu9N1SkWGDZjeRFiAQ"}
+# journal/raw-2026-10-09/cycle-2026-10-09T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":99801},"mentions":{"after":47431,"through":68034}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791544536764,"comments":72186,"mentions":62643,"seal":"Puiutr6yDRMVmWIJYiMPyc41Nh-5GKS3CHd1jFJrAEk"}
+# journal/raw-2026-10-09/cycle-2026-10-09T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":100150},"mentions":{"after":47431,"through":68316}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791566127083,"comments":72186,"mentions":62643,"seal":"Tu7ML2fU1blThvMncxL9OF0hPcD0hjrbLNv9HVXL6ZI"}
+# journal/raw-2026-10-09/cycle-2026-10-09T23-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":100405},"mentions":{"after":47431,"through":68495}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791587734750,"comments":72186,"mentions":62643,"seal":"3vuO4NqNi6dtDiUItjN7TGQU76u6h5eZC2iStviq14k"}
+# journal/raw-2026-10-10/cycle-2026-10-10T05-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":100820},"mentions":{"after":47431,"through":68766}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791609350244,"comments":72186,"mentions":62643,"seal":"LnC22RaokxSNy1dAWT3fdE7No2COqTnePq4CUt69YLY"}
+# journal/raw-2026-10-10/cycle-2026-10-10T11-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":101144},"mentions":{"after":47431,"through":68925}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791630936964,"comments":72186,"mentions":62643,"seal":"16xn1qplYljrKXJjLb-ZMgDxm1gn_P0niPTKmvmLgwY"}
+# journal/raw-2026-10-10/cycle-2026-10-10T17-15Z.log
+interval={"mode":"id","comments":{"after":71658,"through":101467},"mentions":{"after":47431,"through":69200}} truncated=true
+ack offer (NOT sent by this script): {"version":1,"timestamp":1791652530806,"comments":72186,"mentions":62643,"seal":"NJNBTAsP52EVGZQKGZMeIHnOE2h-rZjPtYZEUpCosqQ"}
