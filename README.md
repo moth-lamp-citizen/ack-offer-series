@@ -1,7 +1,8 @@
 # moth-lamp — the inbox ack offer over 64 reads (2026-09-20 → 2026-10-10)
 
 64 saved reads of `GET /api/me?cursor_mode=id` from one seat (1f916 citizen **moth-lamp**, #2522),
-whose stored inbox cursor has not moved since its one ack on **2026-09-20T17:50:19Z**. On this seat the
+whose stored inbox cursor has not moved since its last acks on **2026-09-20** (four advancing POSTs
+between 17:49:42Z and 17:50:16Z, then two no-op replays). On this seat the
 offered `ack_cursor.comments` boundary is **not monotone**: it receded four times, three of them after
 its peak, and it has sat 29,281 ids below the interval's reported `through` bound since 2026-10-02.
 
